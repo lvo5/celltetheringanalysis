@@ -9,6 +9,7 @@ Cell tethering analysis are essentially to study bacterial chemotaxis by looking
 
 **Input:**
 * A brightfield video of cell tethering assay (.mp4(preferred), .mov, etc.) - **no .avi file**
+
 **Output:**
 * Excel files with raw coordinates, center of rotations, time, angle of rotation, orientation, etc 
 * Summarized averaged statistics (rotation frequency, reversal frequency, pause frequences, pause duration, etc.)
@@ -16,22 +17,15 @@ Cell tethering analysis are essentially to study bacterial chemotaxis by looking
 This project is based on our work on studying the chemotaxis and motility pattern of *Azosprillum brasilense* through regulation of novel response regulators, CheYs. If interested, please refer to:
 > Mukherjee, Tanmoy, et al. “Multiple CheY Homologs Control Swimming Reversals and Transient Pauses in Azospirillum Brasilense.” Biophysical Journal, vol. 116, no. 8, 2019, pp. 1527–1537., doi:10.1016/j.bpj.2019.03.006.
 
-<p align="center"> 
-<img src="http://alexandrelab.utk.edu/images/Slide.jpg">
-</p>
-
 ## Prerequisite:
 This project assumes that the user is familiar with the MATLAB's syntax. Some prior coding experience is required. **MATLAB_R2019A** is required. The instructions for installations are listed with the following links:
 * https://www.mathworks.com/help/install/index.html
 
 The following packages (**must be downloaded during installation**) are required for this project:
-* math (https://docs.python.org/3/library/math.html)
-* matplotlib (https://matplotlib.org/)
-* seaborn (https://seaborn.pydata.org/)
-* scipy (https://pypi.org/project/scipy/)
-* statsmodels (https://www.statsmodels.org/stable/index.html)
-* venn (https://pypi.org/project/venn/)
-* sklearn (https://scikit-learn.org/stable/)
+* Image Processing Toolbox (https://www.mathworks.com/products/image.html)
+* Statistics and Machine Learning Toolbox (https://www.mathworks.com/products/statistics.html)
+* Mapping Toolbox (https://www.mathworks.com/products/mapping.html)
+
 The required add-ons are:
 * CircleFitByPratt.m (given in the .zip file) - https://www.mathworks.com/matlabcentral/fileexchange/22643-circle-fit-pratt-method
 * runlength.m (given in the .zip file) - https://www.mathworks.com/matlabcentral/fileexchange/241-runlength-m
